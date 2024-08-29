@@ -161,10 +161,17 @@ const skills = {
           },
         },
         {
-          skillName: "JAVA",
+          skillName: "Mysql",
           fontAwesomeClassname: "simple-icons:mysql",
           style: {
             color: "blue",
+          },
+        },
+        {
+          skillName: "GIT",
+          fontAwesomeClassname: "simple-icons:git",
+          style: {
+            color: "orange",
           },
         },
       ],
