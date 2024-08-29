@@ -258,12 +258,12 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Machine Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "stanford_logo.png",
+      title: "Mern full stack development",
+      subtitle: "- prepinsta",
+      logo_path: "mfsd.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "Stanford University",
+        "https://drive.google.com/file/d/1lEubpznayNyq2FL4y4Zs2zDl60gcxBoQ/view?usp=sharing",
+      alt_name: "prep insta",
       color_code: "#8C151599",
     },
     {
