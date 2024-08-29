@@ -2,7 +2,7 @@
   "private": true,
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": ".",
+  "homepage": "https://KARTHIKEYAN0807.github.io",
   "scripts": {
     "build": "react-scripts --openssl-legacy-provider build",
     "predeploy": "npm run build",
