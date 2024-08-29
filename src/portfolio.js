@@ -20,7 +20,7 @@ const seo = {
 //Home Page
 const greeting = {
   title: "KARTHIKEYAN S",
-  logo_name: "AshutoshHathidara",
+  logo_name: "karthikeyan S",
   nickname: "MERN FULL STACK DEVELPER",
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
@@ -182,7 +182,7 @@ const competitiveSites = {
       style: {
         color: "#F79F1B",
       },
-      profileLink: "https://leetcode.com/layman_brother/",
+      profileLink: "https://leetcode.com/u/user6914Ia/",
     },
     {
       siteName: "HackerRank",
@@ -190,7 +190,7 @@ const competitiveSites = {
       style: {
         color: "#2EC866",
       },
-      profileLink: "https://www.hackerrank.com/layman_brother",
+      profileLink: "https://www.hackerrank.com/profile/karthickestore_1",
     },
     {
       siteName: "Codechef",
@@ -198,41 +198,27 @@ const competitiveSites = {
       style: {
         color: "#5B4638",
       },
-      profileLink: "https://www.codechef.com/users/ashutosh_1919",
+      profileLink: "https://www.codechef.com/users/band_bell_28",
     },
-    {
-      siteName: "Codeforces",
-      iconifyClassname: "simple-icons:codeforces",
-      style: {
-        color: "#1F8ACB",
-      },
-      profileLink: "http://codeforces.com/profile/layman_brother",
-    },
+    
     {
       siteName: "Hackerearth",
       iconifyClassname: "simple-icons:hackerearth",
       style: {
         color: "#323754",
       },
-      profileLink: "https://www.hackerearth.com/@ashutosh391",
+      profileLink: "https://www.hackerearth.com/@karthickestore.37sp",
     },
-    {
-      siteName: "Kaggle",
-      iconifyClassname: "simple-icons:kaggle",
-      style: {
-        color: "#20BEFF",
-      },
-      profileLink: "https://www.kaggle.com/laymanbrother",
-    },
+    
   ],
 };
 
 const degrees = {
   degrees: [
     {
-      title: "Indian Institute of Information Technology Kurnool",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "iiitk_logo.png",
+      title: "SNS College of Engineering, in Coimbatore, Tamil Nadu",
+      subtitle: "B.Tech. in INFORMATION TECHNOLOGY",
+      logo_path: "sns.png",
       alt_name: "IIITDM Kurnool",
       duration: "2016 - 2020",
       descriptions: [
