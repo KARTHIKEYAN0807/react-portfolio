@@ -92,8 +92,8 @@ const skills = {
       fileName: "FullStackImg",
       skills: [
         "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Creating application backend in Node and Express",
+        "⚡ Creating Database in mysql and mongodb",
       ],
       softwareSkills: [
         {
@@ -111,8 +111,8 @@ const skills = {
           },
         },
         {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
+          skillName: "bootstrap",
+          fontAwesomeClassname: "simple-icons:bootstrap",
           style: {
             color: "#CC6699",
           },
@@ -147,24 +147,24 @@ const skills = {
           },
         },
         {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
+          skillName: "Express",
+          fontAwesomeClassname: "simple-icons:express",
           style: {
             color: "#2C8EBB",
           },
         },
         {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
+          skillName: "MongoDB",
+          fontAwesomeClassname: "simple-icons:mongodb",
           style: {
-            color: "#663399",
+            color: "green",
           },
         },
         {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
+          skillName: "JAVA",
+          fontAwesomeClassname: "simple-icons:mysql",
           style: {
-            color: "#02569B",
+            color: "blue",
           },
         },
       ],
