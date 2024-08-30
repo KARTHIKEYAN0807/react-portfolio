@@ -486,34 +486,16 @@ const projectsHeader = {
 };
 
 const publicationsHeader = {
-  title: "Publications",
-  description: "Some of my published Articles, Blogs and Research.",
-  avatar_image_path: "projects_image.svg",
+  title: "",
+  description: "",
+  avatar_image_path: "",
 };
 
 const publications = {
   data: [
-    {
-      id: "neuro-symbolic-sudoku-solver",
-      name: "Neuro-Symbolic Sudoku Solver",
-      createdAt: "2023-07-02T00:00:00Z",
-      description: "Paper published in KDD KiML 2023",
-      url: "https://arxiv.org/abs/2307.00653",
-    },
-    {
-      id: "mdp-diffusion",
-      name: "MDP-Diffusion",
-      createdAt: "2023-09-19T00:00:00Z",
-      description: "Blog published in Paperspace",
-      url: "https://blog.paperspace.com/mdp-diffusion/",
-    },
-    {
-      id: "consistency-models",
-      name: "Consistency Models",
-      createdAt: "2023-10-12T00:00:00Z",
-      description: "Blog published in Paperspace",
-      url: "https://blog.paperspace.com/consistency-models/",
-    },
+    
+  
+   
   ],
 };
 
@@ -521,27 +503,27 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "profile.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I am available on almost every social media. You can message me, I'm always excited to connect and collaborate! Whether you have a project in mind, a question, or just want to say hello, feel free to reach out. I'm available for full-time opportunities, or any interesting conversations about technology and web development. Let's get in touch and create something amazing together!",
   },
   blogSection: {
     title: "Blogs",
     subtitle:
       "I like to document some of my experiences in professional career journey as well as some technical knowledge sharing.",
-    link: "https://blogs.ashutoshhathidara.com/",
+    link: "https://www.blogger.com/blog/posts/7243673964628339930",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
     title: "Address",
-    subtitle: "Saratoga Ave, San Jose, CA, USA 95129",
-    locality: "San Jose",
-    country: "USA",
-    region: "California",
-    postalCode: "95129",
-    streetAddress: "Saratoga Avenue",
+    subtitle: "223,Dharmapatti,sivagangai(DT)-630309",
+    locality: "Dharmapatti",
+    country: "INDIA",
+    region: "INDIA",
+    postalCode: "630309",
+    streetAddress: "Dharmapatti",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://maps.app.goo.gl/NvYZqa34Wye4tpS17",
+    location_map_link: "https://maps.app.goo.gl/A4S83C9yhtZxfMEd7",
   },
   phoneSection: {
     title: "",
