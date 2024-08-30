@@ -274,21 +274,21 @@ const certifications = {
       color_code: "#8C151599",
     },
     {
-      title: "Deep Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "deeplearning_ai_logo.png",
+      title: "ReactJS",
+      subtitle: "- infosys springboard",
+      logo_path: "infosys.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-      alt_name: "deeplearning.ai",
+        "https://drive.google.com/file/d/1ltCrNWqVVjeAnVfp_N4o7eELL3OsYLxI/view?usp=sharing",
+      alt_name: "infosys",
       color_code: "#00000099",
     },
     {
-      title: "ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
+      title: "JAVA",
+      subtitle: "- prepinsta",
+      logo_path: "java.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-      alt_name: "Google",
+        "https://drive.google.com/file/d/1X9u017bnJzYhRjE-zhRXQvo5NdUbWI7L/view?usp=sharing",
+      alt_name: "prepinsta",
       color_code: "#0C9D5899",
     },
     {
