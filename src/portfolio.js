@@ -154,6 +154,13 @@ const skills = {
           },
         },
         {
+          skillName: "Postman",
+          fontAwesomeClassname: "simple-icons:postman",
+          style: {
+            color: "orange",
+          },
+        },
+        {
           skillName: "MongoDB",
           fontAwesomeClassname: "simple-icons:mongodb",
           style: {
