@@ -21,7 +21,7 @@ const seo = {
 const greeting = {
   title: "KARTHIKEYAN S",
   logo_name: "karthikeyan S",
-  nickname: "MERN FULL STACK DEVELPER",
+  nickname: "FULL STACK DEVELOPER",
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
