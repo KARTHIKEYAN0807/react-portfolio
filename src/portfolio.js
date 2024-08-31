@@ -67,7 +67,7 @@ const socialMediaLinks = [
   {
     name: "X-Twitter",
     link: "https://x.com/KarthiK38657058",
-    fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
+    fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
     backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
   },
   {
