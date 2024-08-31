@@ -24,6 +24,7 @@
           "name": "JavaScript",
           "iconifyClass": "logos-javascript"
         }
+     
       ]
     },
     {
@@ -114,7 +115,7 @@
           "name": "JavaScript",
           "iconifyClass": "logos-javascript"
         }
-      ]
+       ]
     }
   ]
 }
