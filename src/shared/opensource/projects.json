@@ -2,15 +2,27 @@
   "data": [
     {
       "id": "R_kgDOJWL0-g",
-      "name": "REACT PORTFOLIO",
-      "createdAt": "2024-08-13T04:18:19Z",
-      "url": "https://github.com/KARTHIKEYAN0807/react-portfolio",
-      "description": "Created a portfolio website using React.",
+      "name": "WeddingWise - Event Management App",
+      "createdAt": "2024-10-13T04:18:19Z",
+      "url": "https://github.com/KARTHIKEYAN0807/weddingwise-frontend",
+      "description": "Created a Event Management App with Mern full stack development.",
       "isFork": false,
       "languages": [
         {
           "name": "react",
           "iconifyClass": "logos-react"
+        },
+        {
+          "name": "Nodejs",
+          "iconifyClass": "logos-nodejs"
+        },
+        {
+          "name": "expressjs",
+          "iconifyClass": "logos-expressjs"
+        },
+        {
+          "name": "mongodb",
+          "iconifyClass": "logos-mongodb"
         },
         {
           "name": "HTML",
