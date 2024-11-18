@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/file/d/1RShU32SCGe6OBwRjIkaISdl7lL-5oI0i/view",
+    "https://drive.google.com/file/d/1I6SC4_JNKjHV9RqZe4nGCGU3pBQOIrs_/view?usp=sharing",
   portfolio_repository: "https://github.com/KARTHIKEYAN0807/react-portfolio",
   githubProfile: "https://github.com/KARTHIKEYAN0807",
 };
