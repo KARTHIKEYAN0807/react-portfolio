@@ -254,13 +254,31 @@ const degrees = {
 const certifications = {
   certifications: [
     {
+      title: "Full Stack Development",
+      subtitle: "- GUVI",
+      logo_path: "guvifsd.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1-6msSFAylgGbB82DnU7o700NFKTQa9ap/view?usp=sharing",
+      alt_name: "guvi",
+      color_code: "#1F70C199",
+    },
+    {
+      title: "Letter Of Recommendation",
+      subtitle: "- Grrowup",
+      logo_path: "grrowuplor.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1_7ugyK5C9DndZpV6zLkKHXu9Hmq5jBiL/view?usp=sharing",
+      alt_name: "prep insta",
+      color_code: "#8C154959",
+    },
+    {
       title: "full Stack Web development",
       subtitle: "- Grrowup",
       logo_path: "grrowup.jpg",
       certificate_link:
         "https://drive.google.com/file/d/1_FagZRatUG2Qz6KJL2ckfX2nh1N1P8FX/view?usp=sharing",
       alt_name: "prep insta",
-      color_code: "#8C151599",
+      color_code: "#8C151593",
     },
     {
       title: "Mern full stack development",
@@ -342,34 +360,7 @@ const certifications = {
         "https://drive.google.com/file/d/1cnicnTRHbwKbVL9pxKALgsKl77ttHFSe/view?usp=sharing",
       alt_name: "oracle",
       color_code: "#2A73CC",
-    },
-    {
-      title: "",
-      subtitle: "- ",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        ".",
-      alt_name: "GCP",
-      color_code: "#4285F499",
-    },
-    {
-      title: "",
-      subtitle: "- ",
-      logo_path: "nptel_logo.png",
-      certificate_link:
-        "",
-      alt_name: "NPTEL",
-      color_code: "#FFBB0099",
-    },
-    {
-      title: "",
-      subtitle: "- ",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "",
-      alt_name: "GCP",
-      color_code: "#4285F499",
-    },
+    }
   ],
 };
 
