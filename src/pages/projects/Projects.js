@@ -55,7 +55,7 @@ class Projects extends Component {
           })}
         </div>
         <Button
-          text={"More Projects"}
+          text={"Source Code"}
           className="project-button"
           href={greeting.githubProfile}
           newTab={true}
