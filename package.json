@@ -28,7 +28,8 @@
     "react-scripts": "^5.0.1",
     "styled-components": "^5.1.1",
     "styletron-engine-atomic": "^1.4.6",
-    "styletron-react": "^5.2.7"
+    "styletron-react": "^5.2.7",
+    "@emailjs/browser": "^3.6.1"
   },
   "devDependencies": {
     "dotenv": "^6.2.0",
