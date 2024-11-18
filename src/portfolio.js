@@ -254,6 +254,15 @@ const degrees = {
 const certifications = {
   certifications: [
     {
+      title: "full Stack Web development",
+      subtitle: "- Grrowup",
+      logo_path: "grrowup.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1_FagZRatUG2Qz6KJL2ckfX2nh1N1P8FX/view?usp=sharing",
+      alt_name: "prep insta",
+      color_code: "#8C151599",
+    },
+    {
       title: "Mern full stack development",
       subtitle: "- prepinsta",
       logo_path: "mfsd.png",
