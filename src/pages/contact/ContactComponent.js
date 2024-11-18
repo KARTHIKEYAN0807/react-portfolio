@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import emailjs from "@emailjs/browser";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
@@ -16,8 +17,52 @@ const addressSection = contactPageData.addressSection;
 const phoneSection = contactPageData.phoneSection;
 
 class Contact extends Component {
+  state = {
+    name: "",
+    email: "",
+    message: "",
+    isSubmitting: false,
+    success: null,
+  };
+
+  handleInputChange = (e) => {
+    const { name, value } = e.target;
+    this.setState({ [name]: value });
+  };
+
+  sendEmail = (e) => {
+    e.preventDefault();
+    this.setState({ isSubmitting: true });
+
+    const { name, email, message } = this.state;
+
+    emailjs
+      .send(
+        "service_ckqkw3p", // Replace with your EmailJS Service ID
+        "template_yfwpfpb", // Replace with your EmailJS Template ID
+        { name, email, message },
+        "coxBe5MfzFAZjWDOB" // Replace with your EmailJS Public Key
+      )
+      .then(
+        () => {
+          this.setState({
+            name: "",
+            email: "",
+            message: "",
+            isSubmitting: false,
+            success: true,
+          });
+        },
+        () => {
+          this.setState({ isSubmitting: false, success: false });
+        }
+      );
+  };
+
   render() {
+    const { name, email, message, isSubmitting, success } = this.state;
     const theme = this.props.theme;
+
     return (
       <div className="contact-main">
         <Header theme={theme} />
@@ -55,6 +100,48 @@ class Contact extends Component {
               </div>
             </div>
           </Fade>
+
+          {/* Contact Form Section */}
+          <Fade bottom duration={1000} distance="40px">
+            <form className="contact-form" onSubmit={this.sendEmail}>
+              <h2 style={{ color: theme.text }}>Contact Me</h2>
+              <input
+                type="text"
+                name="name"
+                placeholder="Your Name"
+                value={name}
+                onChange={this.handleInputChange}
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                value={email}
+                onChange={this.handleInputChange}
+                required
+              />
+              <textarea
+                name="message"
+                placeholder="Your Message"
+                value={message}
+                onChange={this.handleInputChange}
+                required
+              />
+              <button type="submit" disabled={isSubmitting}>
+                {isSubmitting ? "Sending..." : "Send Message"}
+              </button>
+              {success === true && (
+                <p className="success-message">Message sent successfully!</p>
+              )}
+              {success === false && (
+                <p className="error-message">
+                  Failed to send the message. Please try again.
+                </p>
+              )}
+            </form>
+          </Fade>
+
           <Fade bottom duration={1000} distance="40px">
             <div className="blog-heading-div">
               <div className="blog-heading-text-div">
@@ -77,21 +164,14 @@ class Contact extends Component {
                 </div>
               </div>
               <div className="blog-heading-img-div">
-                {/* <img
-											src={require(`../../assets/images/${blogSection["avatar_image_path"]}`)}
-											alt=""
-										/> */}
                 <BlogsImg theme={theme} />
               </div>
             </div>
           </Fade>
+
           <Fade bottom duration={1000} distance="40px">
             <div className="address-heading-div">
               <div className="contact-heading-img-div">
-                {/* <img
-											src={require(`../../assets/images/${addressSection["avatar_image_path"]}`)}
-											alt=""
-										/> */}
                 <AddressImg theme={theme} />
               </div>
               <div className="address-heading-text-div">
