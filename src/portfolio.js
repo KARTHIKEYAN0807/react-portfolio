@@ -396,6 +396,17 @@ const experience = {
       title: "Internships",
       experiences: [
         {
+          title: "Intern in Software Engineering",
+          company: "Qiaben Healthcare Solution pvt.",
+          company_url: "https://qiaben.com/",
+          logo_path: "QIABEN-Health-rectangle.png",
+          duration: "Oct 2024 -  Still Working",
+          location: "Remote",
+          description:
+            "Software Engineering team at Qiaben!.",
+          color: "#000000",
+        },
+        {
           title: "MERN FULL STACK DEVELOPMENT",
           company: "Grrowup.",
           company_url: "https://www.grrowup.com/program/full-stack-web-dev",
