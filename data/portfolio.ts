@@ -63,6 +63,15 @@ export const portfolioData = {
       status: "Private",
       github: "",
       demo: "",
+    },
+    {
+      title: "WeddingWise",
+      description:
+        "A full stack application that showcases product-style development, user flows, and practical frontend-backend integration.",
+      tech: ["React", "Node.js", "MongoDB", "Full Stack"],
+      status: "Public",
+      github: "https://github.com/KARTHIKEYAN0807/weddingwise-frontend",
+      demo: "",
     }
   ],
   experience: [
