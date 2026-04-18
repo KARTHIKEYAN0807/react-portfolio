@@ -193,61 +193,21 @@ export default function Home() {
         </div>
       </motion.section>
 
-      <motion.section id="contact" className="mx-auto mt-20 max-w-5xl" {...fadeUp}>
-        <div className="grid gap-6 md:grid-cols-[0.9fr_1.1fr]">
-          <div className="glass rounded-3xl p-8 shadow-glow">
-            <h2 className="section-title">Contact</h2>
-            <p className="mt-4 leading-7 text-white/65">
-              I&apos;m open to full-time opportunities, product collaborations, and meaningful engineering conversations.
-            </p>
-            <div className="mt-8 space-y-4 text-sm text-white/75">
-              <p>{portfolioData.personal.email}</p>
-              <a href={portfolioData.personal.linkedin} target="_blank" rel="noreferrer" className="block hover:text-white">
-                LinkedIn
-              </a>
-              <a href={portfolioData.personal.github} target="_blank" rel="noreferrer" className="block hover:text-white">
-                GitHub
-              </a>
-            </div>
+      <motion.section id="contact" className="mx-auto mt-20 max-w-4xl" {...fadeUp}>
+        <div className="glass rounded-3xl p-8 text-center shadow-glow">
+          <h2 className="section-title">Contact</h2>
+          <p className="mx-auto mt-4 max-w-2xl text-white/65">
+            I&apos;m open to full-time opportunities, product collaborations, and meaningful engineering conversations.
+          </p>
+          <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
+            <a href={portfolioData.personal.linkedin} target="_blank" rel="noreferrer" className="rounded-full bg-white px-6 py-3 font-medium text-slate-900">
+              LinkedIn
+            </a>
+            <a href={portfolioData.personal.github} target="_blank" rel="noreferrer" className="glass rounded-full px-6 py-3 font-medium text-white">
+              GitHub
+            </a>
           </div>
-
-          <form className="glass rounded-3xl p-8" onSubmit={(e) => e.preventDefault()}>
-            <div className="grid gap-4">
-              <div>
-                <label className="mb-2 block text-sm text-white/70">Name</label>
-                <input
-                  type="text"
-                  placeholder="Your name"
-                  className="w-full rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-white outline-none placeholder:text-white/35 focus:border-cyan-400/50"
-                />
-              </div>
-              <div>
-                <label className="mb-2 block text-sm text-white/70">Email</label>
-                <input
-                  type="email"
-                  placeholder="your@email.com"
-                  className="w-full rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-white outline-none placeholder:text-white/35 focus:border-cyan-400/50"
-                />
-              </div>
-              <div>
-                <label className="mb-2 block text-sm text-white/70">Message</label>
-                <textarea
-                  rows={6}
-                  placeholder="Tell me about your project or opportunity"
-                  className="w-full rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-white outline-none placeholder:text-white/35 focus:border-cyan-400/50"
-                />
-              </div>
-              <button
-                type="submit"
-                className="rounded-full bg-white px-6 py-3 font-medium text-slate-900 transition hover:opacity-90"
-              >
-                Send with EmailJS
-              </button>
-              <p className="text-xs text-white/45">
-                Add your EmailJS service ID, template ID, and public key to enable sending.
-              </p>
-            </div>
-          </form>
+          <p className="mt-6 text-sm text-white/50">{portfolioData.personal.email}</p>
         </div>
       </motion.section>
 
