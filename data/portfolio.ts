@@ -36,6 +36,9 @@ export const portfolioData = {
       status: "Private",
       github: "",
       demo: "",
+      imageLabel: "Private Product Work",
+      accent: "from-violet-500/40 via-fuchsia-500/20 to-cyan-400/30",
+      cta: "Available on request"
     },
     {
       title: "Power Electronics",
@@ -45,6 +48,9 @@ export const portfolioData = {
       status: "Private",
       github: "",
       demo: "",
+      imageLabel: "Production Application",
+      accent: "from-cyan-500/40 via-sky-500/20 to-violet-500/30",
+      cta: "Private case study"
     },
     {
       title: "MULTIMODEL-RAG-SYSTEM",
@@ -54,6 +60,9 @@ export const portfolioData = {
       status: "Public",
       github: "https://github.com/KARTHIKEYAN0807/MULTIMODEL-RAG-SYSTEM",
       demo: "",
+      imageLabel: "AI + Multimodal RAG",
+      accent: "from-emerald-500/35 via-cyan-500/15 to-violet-500/25",
+      cta: "View code"
     },
     {
       title: "india-ai",
@@ -63,6 +72,9 @@ export const portfolioData = {
       status: "Private",
       github: "",
       demo: "",
+      imageLabel: "Team AI Project",
+      accent: "from-fuchsia-500/35 via-violet-500/15 to-cyan-500/20",
+      cta: "Available on request"
     },
     {
       title: "WeddingWise",
@@ -72,6 +84,9 @@ export const portfolioData = {
       status: "Public",
       github: "https://github.com/KARTHIKEYAN0807/weddingwise-frontend",
       demo: "",
+      imageLabel: "Full Stack Product",
+      accent: "from-rose-500/35 via-orange-400/15 to-fuchsia-500/20",
+      cta: "View code"
     }
   ],
   experience: [
