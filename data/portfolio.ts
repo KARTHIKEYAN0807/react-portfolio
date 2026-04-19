@@ -1,11 +1,11 @@
 export const portfolioData = {
   personal: {
     name: "Karthikeyan S",
-    title: "Full Stack Developer | TypeScript & AI Projects",
+    title: "Full Stack Developer building product-focused web and AI applications.",
     shortBio:
-      "Full Stack Developer focused on building modern web applications, AI-driven workflows, and production-ready user experiences.",
+      "I build modern web products with TypeScript, React, Next.js, and AI-first workflows, with a focus on clean UX and practical engineering.",
     about:
-      "I am a full stack developer with hands-on experience building web applications using React, Next.js, Node.js, TypeScript, and modern backend tools. I enjoy working on real products, improving user experience, and exploring AI-based systems such as RAG and multimodal applications.",
+      "I’m a full stack developer with hands-on experience building production-oriented applications using React, Next.js, Node.js, TypeScript, and modern backend tools. My work spans product interfaces, full-stack delivery, and AI-driven systems such as RAG and multimodal workflows. I care about shipping useful software, writing maintainable code, and turning complex ideas into polished user experiences.",
     email: "karthikoff87@gmail.com",
     github: "https://github.com/KARTHIKEYAN0807",
     linkedin: "https://www.linkedin.com/in/karthikeyansnsce/",
@@ -31,7 +31,7 @@ export const portfolioData = {
     {
       title: "FounderCheck",
       description:
-        "A recent private TypeScript product project focused on modern application development and real-world implementation.",
+        "A recent private product project built with a modern TypeScript stack and focused on real-world application workflows.",
       tech: ["TypeScript", "React", "Next.js"],
       status: "Private",
       github: "",
@@ -43,7 +43,7 @@ export const portfolioData = {
     {
       title: "Power Electronics",
       description:
-        "A private production-oriented TypeScript application that reflects recent product development work and practical engineering delivery.",
+        "A private production-oriented application reflecting recent product development, implementation, and practical engineering delivery.",
       tech: ["TypeScript", "Next.js", "React"],
       status: "Private",
       github: "",
@@ -55,7 +55,7 @@ export const portfolioData = {
     {
       title: "MULTIMODEL-RAG-SYSTEM",
       description:
-        "An AI-focused project exploring multimodal retrieval-augmented generation workflows and modern LLM application patterns.",
+        "An AI-focused project exploring multimodal retrieval-augmented generation workflows and modern LLM application design.",
       tech: ["TypeScript", "AI", "RAG"],
       status: "Public",
       github: "https://github.com/KARTHIKEYAN0807/MULTIMODEL-RAG-SYSTEM",
@@ -67,7 +67,7 @@ export const portfolioData = {
     {
       title: "india-ai",
       description:
-        "A recent private TypeScript project that strengthens the portfolio with current AI-oriented product work and team collaboration experience.",
+        "A recent private AI-oriented TypeScript project that highlights product collaboration and applied engineering work.",
       tech: ["TypeScript", "AI", "Full Stack"],
       status: "Private",
       github: "",
@@ -79,7 +79,7 @@ export const portfolioData = {
     {
       title: "WeddingWise",
       description:
-        "A full stack application that showcases product-style development, user flows, and practical frontend-backend integration.",
+        "A public full-stack application showcasing product-style user flows and frontend-backend integration.",
       tech: ["React", "Node.js", "MongoDB", "Full Stack"],
       status: "Public",
       github: "https://github.com/KARTHIKEYAN0807/weddingwise-frontend",
@@ -96,7 +96,7 @@ export const portfolioData = {
       period: "Oct 2024 - Present",
       location: "Remote",
       description:
-        "Working on software engineering tasks in a real-world product environment.",
+        "Contributing to product engineering work in a real-world software environment.",
     },
     {
       company: "Grrowup",
@@ -104,7 +104,7 @@ export const portfolioData = {
       period: "Jun 2024 - Aug 2024",
       location: "Remote",
       description:
-        "Completed an 8-week full stack web development internship with practical sessions and project-based learning.",
+        "Completed a full stack internship centered on practical learning, implementation, and project-based development.",
     },
     {
       company: "ATS Software Solution",
@@ -112,7 +112,7 @@ export const portfolioData = {
       period: "Jun 2023 - Jul 2023",
       location: "Coimbatore",
       description:
-        "Worked on Raspberry Pi, IoT concepts, hardware interfacing, and practical embedded projects.",
+        "Worked on Raspberry Pi, IoT concepts, hardware interfacing, and embedded systems fundamentals.",
     }
   ]
 };
