@@ -27,7 +27,7 @@ body {
 }
 
 .muted {
-  @apply text-white/62;
+  color: rgb(255 255 255 / 0.62);
 }
 
 .eyebrow {
