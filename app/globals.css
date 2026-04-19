@@ -11,33 +11,33 @@ html {
 }
 
 body {
-  @apply text-white antialiased;
-  background-image: radial-gradient(circle at top left, rgba(124,58,237,0.22), transparent 35%), radial-gradient(circle at top right, rgba(6,182,212,0.18), transparent 30%), linear-gradient(180deg, #060816 0%, #0b1022 100%);
+  @apply bg-[#0a0d14] text-white antialiased;
+  background-image:
+    radial-gradient(circle at top left, rgba(56, 189, 248, 0.08), transparent 30%),
+    radial-gradient(circle at 80% 10%, rgba(168, 85, 247, 0.08), transparent 25%),
+    linear-gradient(180deg, #0a0d14 0%, #0d111a 100%);
 }
 
 .glass {
-  @apply bg-white/5 border border-white/10 backdrop-blur-xl;
-}
-
-.gradient-text {
-  @apply bg-gradient-to-r from-violet-400 via-cyan-300 to-fuchsia-400 bg-clip-text text-transparent;
+  @apply bg-white/[0.03] border border-white/10 backdrop-blur-md;
 }
 
 .section-title {
-  @apply text-3xl md:text-4xl font-bold;
+  @apply text-2xl md:text-3xl font-semibold tracking-tight text-white;
 }
 
-.grid-glow::before {
-  content: "";
-  position: absolute;
-  inset: -1px;
-  border-radius: 1rem;
-  background: linear-gradient(135deg, rgba(124,58,237,0.5), rgba(6,182,212,0.35));
-  z-index: -1;
-  opacity: 0;
-  transition: opacity 0.3s ease;
+.muted {
+  @apply text-white/62;
 }
 
-.grid-glow:hover::before {
-  opacity: 1;
+.eyebrow {
+  @apply text-[11px] uppercase tracking-[0.22em] text-white/45;
+}
+
+.container-shell {
+  @apply mx-auto max-w-6xl;
+}
+
+.project-surface {
+  @apply bg-white/[0.02] border border-white/10 rounded-3xl;
 }
